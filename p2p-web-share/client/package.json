@@ -1,0 +1,19 @@
+{
+  "name": "p2p-web-share-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "p2p-web-share": "file:..",
+    "react": "latest",
+    "react-dom": "latest",
+    "socket.io-client": "^4.7.5",
+    "vite": "latest"
+  }
+}

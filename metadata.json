@@ -1,0 +1,5 @@
+{
+  "name": "P2P Web Share",
+  "description": "Lightweight, decentralized, peer-to-peer file sharing application using WebRTC, zero-knowledge Web Crypto API, and local chunk reassembly.",
+  "requestFramePermissions": []
+}

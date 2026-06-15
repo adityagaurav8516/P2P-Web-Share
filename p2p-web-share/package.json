@@ -1,0 +1,15 @@
+{
+  "name": "p2p-web-share",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Direct browser-to-browser encrypted file transfer using React, Node.js, Socket.IO and WebRTC DataChannels.",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "npx concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start:server": "npm run start --prefix server",
+    "build:client": "npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
